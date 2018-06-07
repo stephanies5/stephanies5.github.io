@@ -1,53 +1,135 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-@charset "utf-8";
+#topic {
+ border: 3px solid white;
+  background-color: #F0F8FF;
+  position: fixed;
+top: 0px;
+ 
+  left: 00px;
+  right: 50px;
+text-align: center;
+  padding-left: 20px;
+  width: 100%;
+  z-index: 10;
+  margin: 0 auto; 
+  word-spacing: 10px;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  color: #00CED1;
+}
 
+.image {
+   border: 30px solid white;
+  position: relative;
+ bottom: 30px;
+  top: 10px;
+  left: 400px;
+  width: 400px;
+  margin: 10px;
+}
 
+.image2 {
+   border: 30px solid white;
+  position: relative;
+  top: 30px;
+  left: 400px;
+  width: 400px;
+  margin: 10px;
+  
 
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+}
 
-$spacing-unit:     30px;
+.image3 {
+  border: 30px solid white;
+ position: relative;
+ bottom: 30px;
+  top: 5px;
+  left: 400px;
+  width: 400px;
+  margin: 10px;
+}
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+#paragraph1 {
+ border: 15px solid white;
+  position: relative;
+  bottom: 30px;
+  width: 800px;
+  margin: 0 auto;
+padding: 10px;
+  font-size: 25px;
+  background-color: rgba(187, 189, 240, 0.6);
+ font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  }
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+.headings {
+Font-weight: bold;
+Border: 10px, solid, white;
+  
+Margin: 0;
+padding:  10px ;
+ postion: fixed;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  color: #00CED1;
 }
 
 
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+
+.p2 {
+ border: 15px solid white;
+  position: relative;
+  top: 30px;
+  bottom: 10px;
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 25px;
+  background-color: rgba(187, 189, 240, 0.6);
+   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+.p3 {
+  border: 5px solid white;
+  position: relative;
+  top: 10px;
+  bottom: 50%;
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 25px;
+  background-color: rgba(187, 189, 240, 0.6); 
+   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+
+
+
+
+#header {
+background-color: #bbbdf0;
+  background-image: url("http://bellarosablog.com/wp-content/uploads/tumblr_static_lemluxhv7yo8wk0gwcg4sw0c.jpg");
+font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+}
+
+#related {
+  border: 2px solid white;
+  
+  padding: 5px;
+background-color: ;
+color: #00CED1;
+  font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+}
+
+#contact {
+ background-color: #F0F8FF;
+  text-align: center;
+  font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  
+}
+
+.instagram {
+  width: 15px;
+}
+
+.pinterest {
+  width: 15px;
+}
+
